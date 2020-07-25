@@ -1,0 +1,33 @@
+.main-section {
+	font-family: sans-serif;
+	font-weight: 700;
+    width: 1200px;
+    padding:  0 15px;
+	height: 350px;
+	margin: 0 auto;
+	padding: 100px 0 0;
+	&__header-column {
+	}
+	&__column {
+		width: 100%;
+        display: flex;
+        margin-bottom: 80px;
+	}
+	&__title {
+		font-size: 30px;
+		font-family: sans-serif;
+		font-weight: 700;
+	}
+	&__row {
+        margin: 0 15px;
+		padding: 20px 15px;
+		width: 350px;
+		height: 100%;
+	}
+	&__desc {
+		color: rgb(119, 119, 119);
+		font-size: 20px;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+}
